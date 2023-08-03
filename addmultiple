@@ -1,1 +1,15 @@
+#include <stdio.h>
 
+main()
+{
+    int a,b,c,m;
+    printf("enter value of a : ");
+    scanf("%d", &a );
+    printf("enter value of b : ");
+    scanf("%d", &b);
+    c=a+b;
+    m=a*b;
+    printf("sum is and  %d and %d", c,m);
+
+    return 0;
+}
